@@ -17,6 +17,19 @@ body {
     height: 70px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    background-color:#1f2937;
+    border-radius: 50px;
+    padding: 12px;
+}
+
+a:hover{
+    background-color:#3882f6;
+}
+
 ul {
     font-size: 13px;
     display: flex;
