@@ -12,7 +12,16 @@ body {
     color: white;
     padding-left: 150px;
     padding-right: 150px;
-    font-size: 10px;
+    font-size: 13px;
+    align-items: center;
+    height: 70px;
+}
+
+ul {
+    font-size: 13px;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
 }
 
 .content{
@@ -26,22 +35,114 @@ body {
     color: white;
     padding-left: 150px;
     padding-right: 150px;
-}
-
-
-
-.pics-section {
-    display: flex;
-    justify-content: center;
-}
-
-.pics-section{
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.introduction img {
+    border-radius: 5px;
+    width: 400px;
+}
+
+
+.text{
+    text-align: left;
+    width: 700px;
 }
 
 .image {
-    height: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.pics-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+.pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pics img{
+    height: auto;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.pic figcaption {
+    width: 200px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 3px;
+    color:white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+
+button:hover {
+    background-color: white;
+    color: #3882f6;
+}
+
+.testimonial {
+    display: flex;
+    text-align: center;
+    background-color: #E5E7EB;
+    height: 300px;
+    align-items: center;
+    align-content: center;
+}
+
+.testimonial p {
+    font: italic 25px Arial, sans-serif;
+    color: #1f2937;color: #1f2937;
+    padding: 200px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    padding: 80px;
+}
+
+.contact-box {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 920px;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+}
+
+.right-box button {
+    border: 1px solid white;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    height:50px;
+
 }
