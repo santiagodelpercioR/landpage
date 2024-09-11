@@ -160,7 +160,7 @@ button:hover {
     display: flex;
     align-items: center;
     background-color: #3882f6;
-    border-radius: 10px;
+    border-radius: 500px;
     width: 920px;
     justify-content: space-around;
     color: white;
