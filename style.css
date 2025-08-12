@@ -1,6 +1,6 @@
 body{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #1f2937;
+    background-color: rgb(6, 124, 6);
     color: #f9faf8;
     display: flex;
     flex-direction: column;
@@ -67,8 +67,8 @@ p{
 }
 
 button{
-    background-color: #3882f6;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(4, 71, 18);
     border-radius: 5px;
     padding: 8px 24px;
     font-weight: 900;
@@ -94,14 +94,15 @@ button{
 }
 
 .right-principal img{
-    height: 250px;
+    border-radius: 15px;
     width: 550px;
+    box-shadow: 0px 0px 3px black;
 }
 
 .information{
+    background-color: white;
     display: flex;
     min-height: 50vh;
-    background-color: #e5e7eb;
     justify-content: center;
 }
 
@@ -115,9 +116,12 @@ button{
 
 .info-container .title{
     justify-self: flex-start;
+    text-align: center;
 }
 
 .pictures-container{
+    margin-top: 16px;
+    width: 110%;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -126,9 +130,9 @@ button{
 }
 
 .pictures-container img{
-    border: 3px solid #3882f6;
-    height: 150px;
-    width: 150px;
+    border: 3px solid rgb(6, 124, 6);
+    height: 160px;
+    width: 160px;
     border-radius: 12px;
 }
 
@@ -139,7 +143,16 @@ button{
     gap: 8px;
     color:#1f2937;
 }
+
+.info figcaption{
+    width: 160px;
+    text-align: center;
+}
 .quote-container{
+    background-image: url("images/store.jpg");
+    background-position: center;
+    background-position-y: 0%;
+    background-size: 100%;
     height: 40vh;
     background-color: rgb(192, 192, 192);
     color: black;
@@ -151,14 +164,18 @@ button{
     width: 900px;
     font-size: 20px;
     font-style: italic;
-    color: #1f2937;
+    color: #ffffff;
+    background-color: #00000052;
+    padding: 8px 24px;
+    border-radius: 16px;
 }
 
 .quote h2{
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #1f2937;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px rgb(15, 75, 3);
 }
 
 .quote h3{
@@ -171,7 +188,7 @@ button{
 }
 
 .contact-container{
-    background-color: #3882F6;
+    background-color: rgb(6, 124, 6);
     height: 150px;
     width: 1200px;
     border-radius:10px;
@@ -180,13 +197,11 @@ button{
 }
 
 .contact-container button{
-    color: #e5e7eb;
-    border: 2px solid #e5e7eb;
     min-width: 101px;
 }
 
 footer{
-    height: 8vh;
+    height: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
